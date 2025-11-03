@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stackly | Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="login.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="logo.jpg" alt="Stackly Logo">
+        <h1>STACKLY</h1>
+      </a>
+    </div>
+  <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">portal 1</a>
+        <a href="home2.html">portal 2</a>
+        <a href="docsavai.html">Available doctors</a>
+        <a href="healthyliving.html">Living Healthy</a>
+        <a href="condition.html">Conditions</a>
+        <a href="contact1.html">contact</a>
+        <a href="login.html">login</a>
+      </nav>
+
+      <div class="actions">
+        <a class="search" href="#">🔍</a>
+        <a class="btn primary" href="docsavai.html">Find a Doctor</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="login-container">
+    <!-- Left Section -->
+    <div class="login-left">
+      <h1>LOGIN</h1>
+      <p>Hey welcome back!<br>We hope you had a great day</p>
+
+      <p class="signup-text">Not yet a member? 
+        <a href="signup.html">Sign Up</a>
+      </p>
+
+    
+    </div>
+
+    <!-- Right Section -->
+    <div class="login-right">
+      <form onsubmit="return handleLogin(event)">
+        <label for="email">E-Mail</label>
+        <input type="email" id="email" placeholder="Eg. info@thestackly.com" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+
+        <button type="submit" class="login-btn">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Stackly | All Rights Reserved</p>
+  </footer>
+
+  <script>
+    function handleLogin(event) {
+      event.preventDefault(); // Stop normal form submission
+
+      // Redirect to the 404 page
+      window.location.href = "404.html";
+    }
+  </script>
+</body>
+</html>

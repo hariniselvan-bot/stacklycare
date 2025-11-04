@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+  
 
   <!-- Floating decorative shapes -->
   <div class="float-wrap" aria-hidden="true">
@@ -40,6 +41,13 @@
       <a class="btn primary" href="docsavai.html">Find a Doctor</a>
     </div>
   </header>
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</header>
+<script>
+function toggleMenu() {
+  document.getElementById('navList').classList.toggle('active');
+}
+</script>
 
   <!-- HERO -->
   <main>
@@ -53,7 +61,7 @@
           </p>
 
           <div class="hero-links">
-            <a class="btn ghost" href="#news">Read Story</a>
+            <a class="btn ghost" href="docsavai.html">Read Story</a>
             <a class="card-mini" href="#news">
               <img src="personal exeer.jpg" alt="small story">
               <div class="mini-text">
@@ -176,20 +184,7 @@
       background-color: #000;
       color: #181818;
     }
-    <footer>
-    <div class="footer-overlay"></div>
-    <script>
-  const menuToggle = document.getElementById('menu-toggle');
-  const navLinks = document.getElementById('nav-links');
-
-  menuToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-  });
-  
-</script>
-
-
-    .footer {
+.footer {
       background: url('footer.jpg') no-repeat center bottom;
       padding: 40px 10% 20px;
       display: flex;

@@ -260,7 +260,7 @@
 </body>
   </section>
 
-   <!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -271,10 +271,9 @@
     body {
       margin: 0;
       font-family: 'Arial', sans-serif;
-      background-color: #dbe2e2;
-      color: #080808;
+      background-color: #fff3f3;
+      color: #0e0d0d;
     }
-    
     <footer>
     <div class="footer-overlay"></div>
     <script>
@@ -284,7 +283,6 @@
   menuToggle.addEventListener('click', () => {
     navLinks.classList.toggle('active');
   });
-  
   
 </script>
 
@@ -417,15 +415,3 @@
     </div>
 
   </footer>
-  <script>
-  const cart = JSON.parse(localStorage.getItem('cart')) || [];
-
-  function addToCart(name, price) {
-    cart.push({ name, price });
-    localStorage.setItem('cart', JSON.stringify(cart));
-    alert(name + " added to your cart!");
-  }
-</script>
-
-</html>
-</html>

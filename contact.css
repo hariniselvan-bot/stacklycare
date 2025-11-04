@@ -330,7 +330,7 @@ nav ul li a.active {
 .contact-form h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #ff4bff;
+  color: #e3d1e3;
 }
 
 .contact-form form {
@@ -345,14 +345,14 @@ nav ul li a.active {
   border: none;
   outline: none;
   border-radius: 8px;
-  background: #ac5192;
-  color: white;
+  background: #e8e2e6;
+  color: rgb(25, 24, 24);
 }
 
 .contact-form button {
-  background: linear-gradient(90deg, #ff4bff, #9a00ff);
+  background: linear-gradient(90deg, #2c5760, #0f2b32);
   border: none;
-  color: white;
+  color: rgb(12, 11, 11);
   padding: 12px;
   border-radius: 8px;
   cursor: pointer;
@@ -360,7 +360,7 @@ nav ul li a.active {
 }
 
 .contact-form button:hover {
-  box-shadow: 0 0 20px #ff4bff;
+  box-shadow: 0 0 20px #ded5de;
 }
 
 .info-item {
@@ -368,7 +368,7 @@ nav ul li a.active {
 }
 
 .info-item h4 {
-  color: #ff4bff;
+  color: #e4c1e4;
   margin-bottom: 5px;
 }
 
